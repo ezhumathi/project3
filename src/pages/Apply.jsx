@@ -116,7 +116,7 @@ function Apply() {
 
     try {
       
-      const response = await axios.post("http://localhost:5000/apply", formData);
+      const response = await axios.post("https://end-intern.onrender.com/apply", formData);
       console.log("Application submitted successfully:", response.data);
       
     } catch (error) {
